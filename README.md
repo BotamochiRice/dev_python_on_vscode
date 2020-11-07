@@ -2,7 +2,7 @@
 
 Sample codes on how to configure VSCode to make a full use of Auto-Complete for Python.
 
-These sample codes are explained in [my blog post]() on Qiita.com
+These sample codes are explained in [my blog post](https://qiita.com/BotamochiRice/items/58cada2960581892621a) on Qiita.com
 
 ## Required Extensions
 
