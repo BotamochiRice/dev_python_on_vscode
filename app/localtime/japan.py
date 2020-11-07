@@ -11,10 +11,25 @@ WEEKDAYS = ['月', '火', '水', '木', '金', '土', '日']
 
 
 def get_curret_jst() -> datetime:
+    """This returns current local time in JST(Japan Standard Time).
+
+    Returns:
+        datetime: current localtime in JST
+    """
     return get_current_local_time(TZ_ASIA_TOKYO)
 
 
 def get_japanese_weekday(weekday_index: int, long_format: bool = False) -> str:
+    """This returns weekday in the Japanese weekday format.
+
+    Args:
+        weekday_index (int): datetime.weekday(): int
+        long_format (bool, optional): returns weekday with "曜日" if True.
+            returns weekday in one letter format if False. Defaults to False.
+
+    Returns:
+        str: weekday in the Japanese weekday format.
+    """
     if weekday_index not in range(7):
         return ""
 
